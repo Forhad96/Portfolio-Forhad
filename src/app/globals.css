@@ -1,27 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+/* body{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1028%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M347.24 254.87L375.46 254.87L375.46 310.75L347.24 310.75z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M390.04 8.45L412.37 8.45L412.37 54.9L390.04 54.9z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M985.4 21.19L1021.77 21.19L1021.77 57.56L985.4 57.56z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1291.77 90.77L1306.67 90.77L1306.67 134.11L1291.77 134.11z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M65.45 451.16L97.44 451.16L97.44 483.15L65.45 483.15z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M25.74 259.85 a4.92 4.92 0 1 0 9.84 0 a4.92 4.92 0 1 0 -9.84 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1333.63 339.14a22.75 22.75 0 1 0 37.86 25.23z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1132.54 303.37L1135.07 303.37L1135.07 355.01L1132.54 355.01z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1283.54 320.02a37.46 37.46 0 1 0-25.82-70.34z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M64.54 304.52L68.26 304.52L68.26 346.42L64.54 346.42z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M144.35 80.04a45.51 45.51 0 1 0 89.94 13.98z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1430.9 468.53L1469.06 468.53L1469.06 510.88L1430.9 510.88z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M72.47 92.17L123.24 92.17L123.24 142.94L72.47 142.94z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M58.46 544.84L78.41 544.84L78.41 564.79L58.46 564.79z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M605 21.81 a7.08 7.08 0 1 0 14.16 0 a7.08 7.08 0 1 0 -14.16 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M239.3 114.08a13.8 13.8 0 1 0 7.61-26.54z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M150.08 486.33L182.75 486.33L182.75 533.89L150.08 533.89z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M1295.58 379.74L1306.56 379.74L1306.56 394.57L1295.58 394.57z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M465.81 547.86L502.94 547.86L502.94 584.99L465.81 584.99z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M594.88 379.18 a20.22 20.22 0 1 0 40.44 0 a20.22 20.22 0 1 0 -40.44 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M631.5 10.01L643.07 10.01L643.07 25.6L631.5 25.6z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M1327.62 289.11a37.11 37.11 0 1 0-46.49-57.86z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M641.34 499.93a36.25 36.25 0 1 0 22.72 68.85z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M401 478.76L447.7 478.76L447.7 521.3L401 521.3z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M520.57 439.68L523.18 439.68L523.18 442.29L520.57 442.29z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1077.82 375.99L1101.5 375.99L1101.5 399.67L1077.82 399.67z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1193.76 482.72L1196.2 482.72L1196.2 499.37L1193.76 499.37z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M804.27 525.37 a19.54 19.54 0 1 0 39.08 0 a19.54 19.54 0 1 0 -39.08 0z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M848.64 224.61L899.75 224.61L899.75 278.62L848.64 278.62z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M839.75 213.27L868.76 213.27L868.76 242.28L839.75 242.28z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M186.08 24.52a46.05 46.05 0 1 0 32.96 86z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M190.08 61.08L212.85 61.08L212.85 83.85L190.08 83.85z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M487.07 210.35a52.2 52.2 0 1 0 8.84-104.03z' fill='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1028'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+} */
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+img {
+  width: 100%; /* Set the desired width */
+  height: auto; /* Maintain the aspect ratio */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+
+.bannerBgImg {
+  background-image: url(../asset/doodles\ mixed\ round.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 55% 70%;
+  /* width: 50%; */
+  /* background-attachment: scroll; */
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.aboutBgImg {
+  background-image: url(../asset/aboutBg.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 55% 70%;
+  /* width: 50%; */
+  /* background-attachment: scroll; */
+}
+
+.cardBg {
+  /* border-radius: 16px; */
+  background: rgba(57, 62, 70, 0.5);
+  backdrop-filter: blur(2px);
+}
+
+.projectBg{
+    background-image: url(../asset/aboutBg.svg);
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-size: cover;
 }

@@ -1,0 +1,18 @@
+Your designation and introduction
+The ability to download your resume (if your resume is not yet created, you only need to have a download feature. In this case, it can be any other text file.)
+Your skills
+Your experience
+Your projects
+Educational information
+Contact information
+A banner would be nice.
+A footer would be nice.
+
+Must be responsive. The simpler it is, the better.
+It would be nice to have some relevant pictures of yourself.
+It would be nice to add some design and features on your o
+
+dark1:#222831
+dark2:#393E46
+primary:#00ADB5
+white:EEEEEE
