@@ -1,35 +1,39 @@
 import Image from "next/image";
-import  heroImg from "../../../../asset/hero1.png";
-import  heroBgImg from "../../../../asset/doodles mixed round.svg";
-import './Banner.css'
+import heroImg from "../../../../asset/hero1.png";
+import heroBgImg from "../../../../asset/doodles mixed round.svg";
+import "./Banner.css";
 const Banner = () => {
-    return (
-      <div className="hero min-h-screen text-white bannerBgImg">
-        <div className="flex gap-10 justify-between flex-col lg:flex-row-reverse">
-          <div className="w-1/2 relative flex-1">
-            <Image
-              src={heroImg}
-              className="object-cover"
-              width={400}
-              height={300}
-              alt="hero image"
-            />
-          </div>
+  return (
+    <div className="hero min-h-screen text-white bannerBgImg">
+      <div className="flex gap-10 justify-between flex-col lg:flex-row-reverse">
+        <div className="w-1/2 relative flex-1">
+          <Image
+            src={heroImg}
+            className="object-cover"
+            width={400}
+            height={300}
+            alt="hero image"
+          />
+        </div>
 
-          <div className="w-1/2">
-            <h1 className="text-8xl font-bold uppercase">
-              fronted <span className="text-primary">developer</span>
-            </h1>
-            <p className="py-6">
-              There wasnt a bird in the sky, but that was not what caught her
-              attention. It was the clouds. The deep green that isn't the color
-              of clouds, but came with these. She knew what was coming and she
-              hoped she was prepared.
-            </p>
-            <button className="btn btn-md hover:bg-dark2 rounded-full text-white bg-primary me-2">
-              Hire Me
-            </button>
-            <button className="btn btn-md rounded-full text-white bg-dark2">
+        <div className="w-1/2">
+          <h1 className="text-8xl font-bold uppercase">
+            fronted <span className="text-primary">developer</span>
+          </h1>
+          <p className="py-6">
+            There wasnt a bird in the sky, but that was not what caught her
+            attention. It was the clouds. The deep green that isn't the color of
+            clouds, but came with these. She knew what was coming and she hoped
+            she was prepared.
+          </p>
+          <button className="btn btn-md px-6 border-none hover:bg-dark2  rounded-full text-white bg-primary me-2">
+            Hire Me
+          </button>
+          <a
+            href="https://docs.google.com/document/d/1dm4cG9D-zt2ymgZpm3L8AlIawGy7kIiTGdqXPyVRvhs/export?format=pdf"
+            download="Forhad-hossain-resume.pdf"
+          >
+            <button className="btn btn-md border-none hover:bg-primary/40   rounded-full text-white bg-dark2">
               Download CV
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -61,9 +65,10 @@ const Banner = () => {
                 />
               </svg>
             </button>
-          </div>
+          </a>
         </div>
       </div>
-    );
+    </div>
+  );
 };
 export default Banner;
