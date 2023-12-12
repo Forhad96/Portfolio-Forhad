@@ -18,7 +18,7 @@ img {
   background-position: right top;
   background-size: 55% 70%;
   /* width: 50%; */
-  /* background-attachment: scroll; */
+  background-attachment: fixed;
 }
 
 .aboutBgImg {
@@ -28,17 +28,23 @@ img {
   background-size: 55% 70%;
   /* width: 50%; */
   /* background-attachment: scroll; */
+  background-attachment: fixed;
+
 }
 
 .cardBg {
   /* border-radius: 16px; */
   background: rgba(57, 62, 70, 0.5);
   backdrop-filter: blur(2px);
+  background-attachment: fixed;
+
 }
 
 .projectBg{
     background-image: url(../asset/aboutBg.svg);
   /* background-repeat: no-repeat; */
   background-position: center;
+  background-attachment: fixed;
+
   background-size: cover;
 }

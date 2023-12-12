@@ -1,10 +1,11 @@
 import Image from "next/image";
 import bookify from '../../../../asset/ProjectImg/bookifyRecent.png'
+import autoVersa from '../../../../asset/ProjectImg/autoVersa/autoVarsaCard.png'
 const Project = () => {
     return (
       <div className="projectBg h-screen">
-        <h1 className="text-6xl font-bold text-white uppercase">
-          My Recent Project
+        <h1 className="text-6xl my-10 font-bold text-white">
+          My recent <span className="text-primary">project</span>
         </h1>
 
         {/* component */}
@@ -16,7 +17,7 @@ const Project = () => {
                   width={300}
                   height={300}
                   className="w-full h-full"
-                  src={bookify}
+                  src={autoVersa}
                   alt="car!"
                 />
               </figure>
